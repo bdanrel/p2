@@ -6,14 +6,14 @@
 </head>
 <body>
 	<form method='GET' action='index.php'>
-    Password Request Form<br>
-	
-    <input type='text' name='wordNumber'> number of words<br>
-	<input type="checkbox" name="useSymbol">use symbol<br>
-	<input type="checkbox" name="useNumber">use number<br>
-    <input type='submit' value='Get a new password!'><br>
-</form>
-<?php echo $password ?>
+		<h1>xkcd Password Generator</h1>
+		
+		Enter an integer number of words between 1-9 (defaults to 4 if invalid)  <input type='text' name='wordNumber'> <br>
+		<label><input type="checkbox" name="useSymbol"> Include a special character like @</label><br>
+		<label><input type="checkbox" name="useNumber"> Include a number</label><br>
+		<input type='submit' value='Get a new password!'><br>
+	</form>
+	Your password is <?php echo $password ?>
 
 </body>
 </html>
