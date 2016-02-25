@@ -1,0 +1,41 @@
+body {
+	font-size: 1em;
+	font-family: Verdana, Geneva, Aria, sans-serif;
+	margin: auto;
+	width: 80%;
+}
+
+h1 {
+	background: #B4B4CD;
+	padding: 10px;
+}
+
+.container{
+	margin: auto;
+	width: 80%;
+	padding: 10px;
+	text-align: center;
+	line-height: 1.8;
+}
+
+.description{
+	font-size: 0.875em;
+}
+
+.password {
+
+	border-width: thin;
+	border-style: solid;
+	border-color: black;
+	padding: 10px;
+	margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+img { 
+	border-width: thin;
+	border-style: double;
+	border-color: black;
+}
