@@ -1,5 +1,5 @@
 body {
-	font-size: 1em;
+	font-size: 0.875em;
 	font-family: Verdana, Geneva, Aria, sans-serif;
 	margin: auto;
 	width: 80%;
@@ -18,9 +18,7 @@ h1 {
 	line-height: 1.8;
 }
 
-.description{
-	font-size: 0.875em;
-}
+
 
 .password {
 
