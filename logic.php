@@ -28,16 +28,17 @@ if ( $_SERVER['REQUEST_METHOD'] == 'GET' ) {
 		//$password = $password."-".$wordlist[$rand_word[$i]]; 
 		$password = $password."-".$wordlist[rand(0,count($wordlist)-1)]; 
 	}
-	//append a random number between 0 and 9 if number was requested
-	if (isset($_GET['useNumber'])) {
-		// checkbox was checked. 
-        $password .= rand(0,9);
-    }
 	//append an "@" if symbol was requested
     if (isset($_GET['useSymbol'])) {
         // checkbox was checked. 
 		$password .= "@";
     }
+	//append a random number between 0 and 9 if number was requested
+	if (isset($_GET['useNumber'])) {
+		// checkbox was checked. 
+        $password .= rand(0,9);
+    }
+	
 }
  
  
