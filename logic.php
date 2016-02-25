@@ -1,6 +1,8 @@
 <?php
-$wordlist = ["cougar", "dingo","elephant","sloth","crocodile","emu","armadillo","tiger","zebra",
-"yellow","green","blue","apple","grapes","banana"];
+//read contents of a file to get common words to use for password
+$filedata=file_get_contents('wordlist.csv');
+$wordlist = str_getcsv($filedata);
+
 //declare empty password to start
 $password="";
 
